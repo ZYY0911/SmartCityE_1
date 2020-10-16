@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gray"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/item_cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_cw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_tckh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_cz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="XXXXX"
+        android:textColor="#333"
+        android:textSize="15sp" />
+</LinearLayout>
