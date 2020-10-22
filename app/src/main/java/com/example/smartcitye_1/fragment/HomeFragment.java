@@ -181,7 +181,6 @@ public class HomeFragment extends Fragment {
             }
         }
         newList.setAdapter(new NewListAdapter(getActivity(), newListListM));
-
     }
 
 
@@ -264,11 +263,12 @@ public class HomeFragment extends Fragment {
                             imageView.setScaleType(ImageView.ScaleType.FIT_XY);
                             imageView.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
                             imageView.setMyUrl(homeImage.getPath());
+                            final int finalI = i;
                             imageView.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
                                     Intent intent = new Intent(getActivity(), EmptyActivity.class);
-                                    intent.putExtra("info", "新闻");
+                                    intent.putExtra("info", "新闻"+( finalI +1));
                                     startActivity(intent);
                                 }
                             });

@@ -82,13 +82,13 @@ public class Dzbc2Activity extends AppCompatActivity {
             integers.add(getBg(calendar));
             calendar.add(Calendar.DAY_OF_MONTH, 1);
         }
-        Log.i("aaa", "setDate: " + rlBeasns.size());
-        int count = 49 - rlBeasns.size();
-        for (int i = 0; i <count; i++) {
-            rlBeasns.add(new RlBeasn(i, 1, 1, 3));
-            integers.add(3);
+        if (rlBeasns.size()!=42){
+            int count = 49 - rlBeasns.size();
+            for (int i = 0; i <count; i++) {
+                rlBeasns.add(new RlBeasn(i, 1, 1, 3));
+                integers.add(3);
+            }
         }
-        Log.i("aaa", "setDate: " + rlBeasns.size());
         final RlAdapter adapter = new RlAdapter(Dzbc2Activity.this, rlBeasns);
         girdRl.setAdapter(adapter);
         adapter.setOnClickItem(new OnClickItem() {

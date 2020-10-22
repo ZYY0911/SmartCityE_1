@@ -78,7 +78,7 @@ public class WyfwActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(WyfwActivity.this, FwxqActivity.class);
-                intent.putExtra("info", "保修电话：\n电话：400-555555");
+                intent.putExtra("info", "报修电话：\n电话：400-555555");
                 intent.putExtra("tel", "400-555555");
                 startActivity(intent);
             }

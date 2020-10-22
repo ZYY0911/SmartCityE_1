@@ -104,7 +104,10 @@ public class MyCenterFragment extends Fragment {
         layoutYjfk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), YjfkActivity.class));
+                Intent intent = new Intent(getActivity(),YjfkActivity.class);
+                intent.putExtra("info",userId);
+                startActivity(intent);
+//                startActivity(new Intent(getActivity(), YjfkActivity.class));
             }
         });
         setVolley();

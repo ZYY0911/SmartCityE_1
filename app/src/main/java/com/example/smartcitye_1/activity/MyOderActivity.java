@@ -2,6 +2,7 @@ package com.example.smartcitye_1.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
@@ -114,6 +115,7 @@ public class MyOderActivity extends AppCompatActivity {
                 busOrders1.add(busOrder);
             }
         }
+        Log.i("aaa", "setListAdapter: "+busOrders1.size());
         expandList.setAdapter(new MyOrderAdapter(busOrders1));
     }
 

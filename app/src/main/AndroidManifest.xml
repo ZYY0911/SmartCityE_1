@@ -40,6 +40,7 @@
         <activity android:name=".activity.YjfkActivity2" />
         <activity android:name=".activity.SqtbActivity" />
         <activity android:name=".activity.SqdtdetailsActivity" />
+        <activity android:name=".activity.Fypjactivity" />
         <activity android:name=".activity.KjflImageActivity" />
         <activity android:name=".activity.TbDetalisActivity" />
         <activity android:name=".activity.KjglActivity" />
@@ -49,7 +50,7 @@
         <activity android:name=".activity.YjfkActivity3" />
         <activity android:name=".activity.CarManagerActivity" />
 
-        <activity android:name=".activity.AddCarMagaerActivity"/>
+        <activity android:name=".activity.AddCarMagaerActivity" />
 
     </application>
 

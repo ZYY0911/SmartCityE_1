@@ -69,7 +69,7 @@ class YjfkActivity extends AppCompatActivity {
                 if (!TextUtils.isEmpty(s)) {
                     String length = s.toString();
                     if (length.length() >= 151) {
-                        Util.showToast("之能输入150字", YjfkActivity.this);
+                        Util.showToast("只能输入150字", YjfkActivity.this);
                         etMsg.setText(length.substring(0, 150));
                         etMsg.setSelection(150);
                         return;

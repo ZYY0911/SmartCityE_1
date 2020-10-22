@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="90dp"
-    android:background="@drawable/bg_gray_yuan"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -10,7 +9,10 @@
         android:id="@+id/item_title"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_gray_yuan"
         android:gravity="center"
         android:text="医"
         android:textColor="#666"
@@ -19,12 +21,11 @@
     <TextView
 
         android:id="@+id/item_name"
-        android:layout_width="match_parent"
+        android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:gravity="center"
-        android:maxLines="3"
-        android:singleLine="true"
+        android:maxLines="1"
         android:text="更多服务"
         android:textColor="#999"
         android:textSize="15sp" />

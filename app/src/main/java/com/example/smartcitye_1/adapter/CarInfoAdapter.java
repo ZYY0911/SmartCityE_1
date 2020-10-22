@@ -58,7 +58,7 @@ public class CarInfoAdapter extends ArrayAdapter<CarWzInfos> {
         holder.itemCp.setText("车牌号：" + carPeal.getCarid());
         holder.itemJe.setText("罚款金额：" + carPeal.getCost() + "元");
         holder.itemKf.setText("违章记分：" + carPeal.getDeductPoints() + "分");
-        holder.itemZt.setText("处理状态" + (carPeal.getStatus() == 0 ? "未处理" : "处理中"));
+        holder.itemZt.setText("处理状态：" + (carPeal.getStatus() == 0 ? "未处理" : "处理中"));
         holder.itemSj.setText("违章时间：" + carPeal.getTime());
         holder.itemDd.setText("违章地点：" + carPeal.getPlace());
         return convertView;

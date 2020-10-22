@@ -8,6 +8,8 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
+import com.google.zxing.BarcodeFormat;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;

@@ -42,7 +42,7 @@ public class NewListAdapter extends ArrayAdapter<NewList> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         final ViewHolder holder;
-        if (convertView == null) {
+//        if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.news_item, parent, false);
             holder = new ViewHolder();
             holder.itemImage = convertView.findViewById(R.id.item_image);
@@ -50,9 +50,9 @@ public class NewListAdapter extends ArrayAdapter<NewList> {
             holder.itemContext = convertView.findViewById(R.id.item_context);
             holder.itemMsg = convertView.findViewById(R.id.item_msg);
             convertView.setTag(holder);
-        } else {
-            holder = (ViewHolder) convertView.getTag();
-        }
+//        } else {
+//            holder = (ViewHolder) convertView.getTag();
+//        }
         final NewList newList = getItem(position);
         holder.itemTitle.setText(newList.getTitle());
         holder.itemContext.setText(newList.getAbstractX());

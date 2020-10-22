@@ -106,8 +106,6 @@ public class CarInfoAcvitiy extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
 
     private void initView() {

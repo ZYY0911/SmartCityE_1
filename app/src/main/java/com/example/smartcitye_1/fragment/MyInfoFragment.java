@@ -162,7 +162,7 @@ public class MyInfoFragment extends Fragment {
         etIds.setText(userInfo.getId());
         etSex.setText(userInfo.getSex());
         StringBuilder stringBuilder = new StringBuilder(userInfo.getId());
-        etIds.setText(stringBuilder.replace(3, 14, "************").toString());
+        etIds.setText(stringBuilder.replace(2, 14, "************").toString());
         ivPhoto.setMyUrl(userInfo.getAvatar());
 
     }

@@ -49,7 +49,7 @@ public class FwxqActivity extends AppCompatActivity {
         btPj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FwxqActivity.this, YjfkActivity2.class));
+                startActivity(new Intent(FwxqActivity.this, Fypjactivity.class));
             }
         });
     }

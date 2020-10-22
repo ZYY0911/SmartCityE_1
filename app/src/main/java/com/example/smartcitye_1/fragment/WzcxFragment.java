@@ -95,6 +95,13 @@ public class WzcxFragment extends Fragment {
 
     }
 
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        etNum.setText("");
+    }
+
     @Override
     public void onHiddenChanged(boolean hidden) {
         if (!hidden) {
